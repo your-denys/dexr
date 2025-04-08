@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { Navbar, Button } from "react-bootstrap";
+import { Navbar } from "react-bootstrap";
 import {
   StarFill,
   Fire,

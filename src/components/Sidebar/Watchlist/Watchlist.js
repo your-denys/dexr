@@ -52,6 +52,7 @@ function Watchlist() {
       localStorage.setItem("coinsData", JSON.stringify(newCoins));
       return newCoins;
     });
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [initialCoins]); 
 
   const handleDragEnd = (event) => {

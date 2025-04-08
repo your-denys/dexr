@@ -130,9 +130,9 @@ body.modal-open {
 }
 
 /* Убираем стрелки в Firefox */
-.filter-modal input[type="number"] {
+/* .filter-modal input[type="number"] {
   -moz-appearance: textfield;
-}
+} */
 
 
 .category-container::-webkit-scrollbar {
