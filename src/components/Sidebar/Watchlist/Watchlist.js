@@ -33,7 +33,7 @@ function Watchlist() {
       const parsedCoins = JSON.parse(savedCoins);
       return parsedCoins.filter((coin) =>
         initialCoins.some((c) => c.id === coin.id)
-      ); // Убираем устаревшие
+      ); 
     }
     return initialCoins;
   });
@@ -42,7 +42,6 @@ function Watchlist() {
     setCoins((prevCoins) => {
       const newCoins = [...prevCoins];
   
-      // Добавляем только те, которых нет в списке
       initialCoins.forEach(coin => {
         if (!prevCoins.some(c => c.id === coin.id)) {
           newCoins.push(coin);

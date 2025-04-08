@@ -21,7 +21,7 @@
     const navigate = useNavigate();
     const [searchParams, setSearchParams] = useSearchParams();
     const { page: urlPage } = useParams();
-    const currentPage = Number(urlPage) || 1; // 🛠 Фикс: Убедимся, что это число
+    const currentPage = Number(urlPage) || 1;
     const initialSortOrder = searchParams.get("sort") || null;
     const initialTimeframe = searchParams.get("timeframe") || "24h";
     const initialFilter = {};
@@ -60,14 +60,14 @@
         const cachedData = loadCachedData();
   
         if (cachedData) {
-          console.log("✅ Данные загружены из кэша");
+          console.log("Данные загружены из кэша");
           processAndSetData(cachedData);
           setIsLoading(false);
           return;
         }
   
         try {
-          console.log("🔄 Загружаем данные с API...");
+          console.log("Загружаем данные с API...");
           const params = {
             vs_currency: "usd",
             order: "market_cap_desc",
@@ -96,7 +96,7 @@
                 params[apiParam] = value;
                 console.log(`Добавляем в параметры: ${apiParam} = ${value}`);
               } else {
-                console.log(`Пропускаем: ${key} (невалидный или пустой)`);
+                console.log(`${key} empty or invalid`);
               }
             });
           }
@@ -119,7 +119,7 @@
           }
         } catch (error) {
           console.error(
-            "Ошибка загрузки данных:",
+            "error",
             error.response ? error.response.data : error.message
           );
           setCoins([]);

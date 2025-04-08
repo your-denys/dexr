@@ -54,7 +54,7 @@ const CoinPage = () => {
           localStorage.setItem(coinCacheTimestampKey, Date.now().toString());
         }
       } catch (error) {
-        console.error("Ошибка загрузки данных монеты:", error);
+        console.error("Error", error);
       }
     };
 
@@ -92,14 +92,14 @@ const CoinPage = () => {
           localStorage.setItem(chartCacheTimestampKey, Date.now().toString());
         }
       } catch (error) {
-        console.error("Ошибка загрузки данных графика:", error);
+        console.error("Error:", error);
       }
     };
 
     fetchChartData();
   }, [id, timeframe]);
 
-  if (!coin || !chartData) return <p>Загрузка...</p>;
+  if (!coin || !chartData) return <p>Loading...</p>;
 
   console.log(coin);
   return (

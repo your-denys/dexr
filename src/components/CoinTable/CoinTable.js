@@ -43,7 +43,7 @@ const CoinTable = ({ coins, currentPage, perPage }) => {
                       }
                     >
                       {coin.price_change_percentage_24h?.toFixed(2) ||
-                        "Нет данных"}
+                        "no data"}
                       %
                     </td>
                   </tr>
@@ -51,7 +51,7 @@ const CoinTable = ({ coins, currentPage, perPage }) => {
               ) : (
                 <tr>
                   <td colSpan="5" className="no-data">
-                    Данных нет
+                    No Data
                   </td>
                 </tr>
               )}

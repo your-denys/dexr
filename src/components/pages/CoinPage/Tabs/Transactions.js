@@ -57,7 +57,7 @@ function Transactions({ chainName }) {
           },
         ]);
       } catch (error) {
-        console.error("Ошибка загрузки данных:", error);
+        console.error("Error:", error);
       }
     };
 

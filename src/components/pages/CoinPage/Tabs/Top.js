@@ -45,7 +45,7 @@ function Top() {
           },
         ]);
       } catch (error) {
-        console.error("Ошибка загрузки данных:", error);
+        console.error("Erorr", error);
       }
     };
 
