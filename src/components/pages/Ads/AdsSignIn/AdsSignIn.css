@@ -1,0 +1,67 @@
+/* Общий фон с размытием */
+.signin-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.signin-wrapper::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  backdrop-filter: blur(10px);
+}
+
+/* Контейнер формы */
+.signin-container {
+  position: relative;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Заголовок */
+.signin-container h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+/* Подзаголовок */
+.signin-container p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+
+/* Google Button */
+.google-btn {
+  background: #fff !important;
+  color: #333 !important;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+}
+
+.google-btn:hover {
+  background: #f1f1f1 !important;
+}
+
+/* Иконка Google */
+.google-icon {
+  width: 20px;
+  height: 20px;
+}

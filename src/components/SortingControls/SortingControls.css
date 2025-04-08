@@ -1,0 +1,66 @@
+/* Общий стиль для кнопок */
+.sort-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 0 20px;
+  }
+  
+  /* Стиль кнопок сортировки */
+  .sort-buttons {
+    margin-right: 15px;
+  
+  }
+  .sort-button {
+    background: #333;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap:5px;
+  }
+  
+  /* Иконки внутри кнопок */
+  .sort-button svg {
+    width: 16px;
+    height: 16px;
+  }
+  
+  /* Активная кнопка */
+  
+  .sort-button .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
+    background: #222 !important;
+  }
+  .sort-button:hover {
+    background: #444;
+  }
+  
+  /* Кнопки времени */
+  .time-button {
+    background: #333;
+    color: #ffffff;
+    border: none;
+    padding: 8px 12px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 6px;
+  }
+  
+  .time-button.active {
+    background: #fff !important;
+    color: #333 ;
+    font-weight: 600;
+  }
+  
+  .time-buttons {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 10px;
+  }
+  

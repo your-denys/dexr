@@ -1,0 +1,67 @@
+.ad-card {
+    border: none !important;
+    background:#00000020;
+}
+.card-title {
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif!important;
+
+}
+.card-text {
+    color: #a8a8a8;
+    font-size: 13px;
+    line-height: 1.5;
+    font-weight: 200;
+}
+
+.card-body {
+    display: flex;
+    flex-direction:column;
+}
+
+.card-body button {
+    margin-top: auto;
+}
+
+.how-it-works {
+    background-color: #0d0d12; /* Dark background */
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 12px;
+  }
+  
+  .steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px;
+  }
+  
+  .step {
+    max-width: 500px;
+  }
+  
+  .circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #5c5c72;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 auto 10px;
+    font-family: 'Poppins', sans-serif!important;
+
+  }
+
+  .how-it-works p {
+    font-weight: 200;
+    color: #a8a8a8;
+  }
+  
+  

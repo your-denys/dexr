@@ -1,0 +1,49 @@
+.watchlist-container {
+    padding: 0px 10px;
+}
+.watchlist-container h5{
+    display: flex;
+    align-items:center;
+    gap:7px;
+    font-size:14px; 
+    font-weight: bold;
+}
+
+.watchlist-card {
+    background-color: transparent !important;
+    display: flex;
+    flex-direction: row !important;
+    align-items:center;
+    gap: 10px;
+    border: none !important;
+}
+.watchlist-card-holder {
+    font-size: 14px;
+}
+
+.watchlist-card-token {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items:center;
+    text-decoration: none;
+}
+
+.watchlist-card-token div {
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.watchlist-card-token small {
+    font-size: 11px;
+    color: #848489;
+}
+
+.watchlist-card-token strong {
+    font-size: 14px;
+    font-weight: bold;
+    color:#fff;
+}
+

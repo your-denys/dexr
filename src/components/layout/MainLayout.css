@@ -1,0 +1,11 @@
+.app-container {
+    display: flex;
+  }
+  
+  .content {
+    margin-left: 200px; /* Размер sidebar */
+    width: 100%;
+    background: #1a1a1a;
+    color: white;
+    min-height: 100vh;
+  }

@@ -1,0 +1,241 @@
+.search-modal .modal-content {
+    background: #1a1a1a;
+    border-radius: 10px;
+    color: white;
+    border: none;
+  }
+  
+  .search-input-wrapper {
+    position: relative;
+    width: 100%;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 12px 12px 12px 40px;
+    border: none;
+    border-radius: 6px;
+    background: #292929;
+    color: white;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .search-input::placeholder {
+    color: #bbb;
+  }
+  
+  .search-input-icon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .recent-searches {
+    margin-top: 15px;
+  }
+  
+  .recent-searches h6 {
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 8px;
+  }
+  
+  .recent-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .recent-item {
+    background: #333;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s;
+  }
+  
+  .recent-item:hover {
+    background: #444;
+  }
+  
+
+  .search-input:focus, .search-button:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+    background: #333;
+    color:#fff;
+  }
+
+
+  .search-button-wrapper {
+    border-bottom: 0.5px solid #333;
+    padding: 0px 10px 10px;
+  }
+
+  .search-button {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #1e1e1e !important;
+    border: 1px solid rgba(58, 58, 58, 0.403) !important;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: #292929 !important;
+  }
+  
+  .search-icon {
+    font-size: 16px;
+    color: #A9a9a9;
+  }
+  
+  .search-text {
+    flex-grow: 1;
+    text-align: left;
+    margin-left: 8px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .search-shortcut {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+
+  .modal {
+    --bs-modal-zindex: 1055;
+    --bs-modal-width: 50vw;
+    --bs-modal-padding: 1rem;
+    height: 100vh !important;
+
+  }
+
+  .search-modal .modal-content {
+    height: 70vh !important;
+}
+
+
+/*  */
+/* SearchModal.css */
+
+
+.search-input-wrapper {
+  margin-bottom: 10px;
+}
+
+
+.search-suggestions {
+  background: #333;
+  border-radius: 8px;
+  margin-top: 10px;
+  max-height: 350px;
+  overflow-y: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.search-suggestion-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #292929;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.search-suggestion-item:hover {
+  background: #292929;
+}
+
+.coin-thumb {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.coin-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.coin-name {
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.coin-rank {
+  font-size: 12px;
+  color: #a8a8a8;
+  font-family: 'Poppins';
+
+}
+
+.recent-searches {
+  margin-top: 10px;
+}
+
+.recent-searches h6 {
+  font-size: 13px;
+  color: #a8a8a8;
+  margin-bottom: 5px;
+  font-family: 'Poppins';
+
+}
+
+.recent-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.recent-item {
+  background: #333 !important;
+  border-radius: 6px;
+  font-size: 13px;
+  padding: 5px 10px;
+  transition: background 0.2s;
+  font-family: 'Poppins';
+
+}
+
+.recent-item:hover {
+  background: #292929 !important;
+  color: #fff;
+}
+
+
+.search-suggestions::-webkit-scrollbar {
+  width: 5px;
+}
+.search-suggestions::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #424342, #424342ab);
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+.search-suggestions::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #424342, #424342ab);
+}
+.search-suggestions::-webkit-scrollbar-track {
+  background: transparent;
+}
+.search-suggestions {
+  scrollbar-width: thin;
+  scrollbar-color: #424342 transparent;
+}

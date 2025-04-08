@@ -1,0 +1,79 @@
+.category-container {
+    padding: 20px 0;
+    color: white;
+  }
+  
+  .coin-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #222;
+    border-radius: 10px;
+    /* overflow: hidden; */
+    position: relative;
+  }
+  
+  .coin-table th {
+    background-color: #39393a;
+  }
+  .coin-table th,
+  .coin-table td {
+    padding: 12px;
+    border-bottom: 1px solid #333;
+    text-align: left;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: bold;
+    
+  }
+  
+  .coin-table tr:hover {
+    background-color: #2f2e2e;
+  }
+  
+  .coin-name * {
+    margin-right: 10px;
+  }
+  
+  .coin-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    /* font-weight: normal; */
+  }
+  
+  .coin-icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .positive {
+    color: #4caf50;
+  }
+  
+  .negative {
+    color: #ff5252;
+  }
+  .coin-link span {
+    color: #808080;
+    font-size: 11px;
+  }
+  
+  .coin-table thead {
+    position: sticky;
+    top: -21px;
+    background-color: #39393a;
+    z-index: 100;
+  }
+  
+  .coin-table tr:hover {
+    background-color: #2f2e2e;
+  }
+  
+  /* Добавь ограничение высоты для контейнера, если нужно */
+  .category-container {
+    max-height: 100vh; 
+    overflow-y: auto;
+  }

@@ -1,0 +1,154 @@
+.multichart {
+}
+
+.multichart .ads-container {
+  padding-top: 20px !important;
+  background-color: #1a1a1a;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+
+.multichart-controller {
+  background-color: #1a1a1a;
+  padding: 0 20px 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  border-bottom: 1px solid #333;
+}
+.multichart-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.multichart-controller button {
+  padding: 2px 8px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  font-weight: normal;
+  font-size: 14px;
+  font-family: "Poppins";
+  color: #fffffe;
+  transition: all 0.2s ease-in-out;
+}
+
+.multichart-controller button:hover {
+  background-color: #333333b6;
+}
+
+.multichart-controller span {
+  font-size: 14px;
+  color: #fff;
+  font-family: "Poppins";
+  font-weight: bold;
+}
+
+.multicharts-wrapper {
+  padding: 20px;
+  background-color: #222;
+}
+
+.multicharts-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  border: 1px solid #333;
+  position: relative;
+  background-color: #1e1e1e;
+}
+
+.multicharts-card-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+  padding: 8px 20px;
+  background-color: #333;
+  transition: all 0.2s ease-in-out;
+}
+
+.multicharts-card-info:hover {
+  background-color: #3f3f3f;
+}
+
+.multicharts-card-info img {
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+}
+
+.multicharts-card-info p {
+  margin: 0;
+  font-weight: 200;
+  color: #a8a8a8;
+}
+.multicharts-card-info span {
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.multicharts-card-name {
+  font-size: 15px;
+  font-weight: bold !important;
+  color: #fff !important;
+}
+
+.multicharts-card-chart {
+  height: calc(100% - 100px);
+  width: 100%;
+}
+
+.multicharts-card-trash {
+  cursor: pointer;
+  margin-left: auto;
+  padding-right: 20px;
+}
+.multichart-controller .multicharts-card-trash {
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s ease-in-out;
+}
+
+.multichart-controller .multicharts-card-trash:hover {
+  background-color: #222;
+}
+
+.multicharts-wrapper .multicharts-card-trash svg {
+  padding: 4px;
+  border: 1px solid #a8a8a8;
+  border-radius: 5px;
+  opacity: 0.3;
+  transition: all 0.2s ease;
+  color: #a8a8a8;
+  width: 25px;
+  height: 25px;
+}
+.multicharts-card-trash svg:hover {
+  opacity: 1;
+}
+
+.multicharts-card-add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #1e1e1e;
+  color: #a8a8a8;
+  transition: all 0.3s ease;
+}
+
+.multicharts-card-add:hover {
+  color: #fff;
+  background-color: #333;
+}

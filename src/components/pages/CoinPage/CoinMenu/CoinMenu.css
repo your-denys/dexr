@@ -1,0 +1,486 @@
+.coin-menu {
+  background-color: #17171c;
+  color: #fff;
+  border-radius: 5px;
+  font-family: Poppins;
+  overflow-y: auto !important;
+}
+
+.coin-menu-header {
+  padding: 10px 20px;
+  background-color: #222227;
+}
+
+.coin-menu-header-img {
+  width: 35px;
+  margin-right: 15%;
+}
+
+.coin-menu-img {
+  padding-top: 10px;
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.coin-menu-header-content {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-right: auto;
+}
+
+.coin-menu-title {
+  font-size: 18px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.coin-menu-body {
+  padding: 10px;
+}
+
+.coin-description {
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+
+.coin-menu-rank {
+  font-size: 0.9rem;
+}
+.coin-menu-social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 320px;
+}
+
+.coin-menu-social-media a {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 6px;
+  background-color: #3c3c3c;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  border-right: 1px solid #17171c;
+}
+
+.coin-menu-social-media a:last-child {
+  border-right: none;
+}
+
+.coin-menu-social-media a img {
+  width: 14px;
+  margin-right: 4px;
+}
+
+.coin-menu-social-media a:hover {
+  background-color: #333;
+}
+
+.stats-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 10px 0;
+  border-radius: 5px;
+  max-width: 350px;
+}
+
+.stats-card {
+  padding: 4px;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid #333;
+}
+
+.stats-title {
+  display: block;
+  font-size: 11px;
+  color: #a9a9a9;
+  font-weight: 200;
+}
+
+.stats-value {
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lock-icon {
+  margin-left: 1px;
+  font-size: 10px;
+  vertical-align: middle;
+}
+
+.coin-menu-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.coin-menu-price-sol {
+  font-size: 1rem;
+  color: #bbb;
+}
+
+.coin-menu-stats {
+  background-color: #222;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+.coin-menu-changes {
+  display: flex;
+  justify-content: space-between;
+  background-color: #222;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+.coin-menu-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.coin-menu-actions .btn {
+  width: 48%;
+  font-weight: bold;
+  color: #fff;
+}
+.coin-menu-sell {
+  color: #f45b5b !important;
+  border: 2px solid #f45b5b;
+}
+.coin-menu-buy {
+  color: #a4cf5e !important;
+  border: 2px solid #a4cf5e;
+}
+
+.coin-menu-buy:hover {
+  background-color: #a4cf5e5d;
+  color: #fff !important;
+}
+.coin-menu-sell:hover {
+  background-color: #f45b5b53;
+  color: #fff !important;
+}
+
+.coin-menu-watchlist {
+  border-radius: 5px;
+}
+
+.coin-menu-watchlist button {
+  width: 100%;
+  color: #fff;
+  background-color: #3c3c3c;
+  font-size: 15px;
+}
+
+.coin-menu-watchlist button:hover {
+  background-color: #555555;
+}
+.coin-menu-boost {
+  border-radius: 5px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.coin-menu-boost .btn {
+  border: 1px solid rgba(240, 185, 11, 0.36);
+  width: 100%;
+  font-weight: bold;
+  background-color: rgba(240, 185, 11, 0.04);
+  color: #f0b90b;
+  font-size: 14px;
+}
+
+.coin-menu-boost .btn:hover {
+  border-color: transparent;
+  box-shadow: 0px 0px 25px 1px rgba(240, 187, 11, 0.3);
+  background: #f0b90b;
+  color: #352903;
+}
+
+.coin-menu::-webkit-scrollbar {
+  width: 6px;
+}
+.coin-menu::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #424342, #424342ab);
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+.coin-menu::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #424342, #424342ab);
+}
+.coin-menu::-webkit-scrollbar-track {
+  background: transparent;
+}
+.coin-menu {
+  scrollbar-width: thin;
+  scrollbar-color: #424342 transparent;
+}
+
+.coin-menu-details-container {
+  border: 1px solid #333 !important;
+  border-radius: 5px;
+}
+
+.coin-menu-tab-box {
+  display: flex;
+  gap: 10px;
+}
+.coin-menu-tab-box p {
+  margin: 0;
+}
+
+.coin-menu-tab-box-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 10px;
+}
+
+.coin-menu-tab-box-section:last-of-type {
+  border-left: 1px solid #333;
+  width: 100%;
+  gap: 0;
+}
+
+.coin-menu-tab-box .market {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.coin-main-details li {
+  border-right: 1px solid #333;
+  flex: 1;
+}
+
+.coin-main-details-dates {
+  font-size: 12px !important;
+  font-weight: normal;
+  color: #a9a9a9;
+}
+.coin-main-details li button {
+  width: 100%;
+}
+.coin-main-details li button p {
+  font-size: 14px;
+  margin: 0;
+}
+.coin-main-details li:last-of-type {
+  border-right: none;
+}
+.coin-menu-details-container .nav-tabs .nav-item.show .nav-link,
+.nav-tabs {
+  border-bottom: 1px solid #333 !important;
+}
+.coin-main-details .nav-link {
+  margin: 0 !important;
+  padding: 4px;
+}
+
+.coin-menu .tab-content {
+  background-color: transparent !important;
+}
+
+.crypto-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.crypto-label {
+  font-size: 12px;
+  color: #aaa;
+  text-transform: uppercase;
+}
+
+.crypto-value {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.green {
+  color: #4caf50;
+}
+
+.red {
+  color: #f44336;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 4px;
+  background-color: #222; /* Исправлен цвет фона */
+  border-radius: 3px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  flex-direction: row;
+  gap: 2px;
+  margin-bottom: 14px;
+}
+
+.progress {
+  height: 100%;
+}
+
+.progress.green {
+  background-color: #4caf50;
+}
+
+.progress.red {
+  background-color: #f44336;
+}
+
+.crypto-stat-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.coin-menu-emoji-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.coin-menu-emoji {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #333;
+}
+
+.coin-menu-emoji:hover {
+  background-color: #323239;
+}
+
+.coin-menu-emoji span {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.coin-menu-addresses-wrapper {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #333;
+  color: #fff; /* Белый текст */
+}
+
+.coin-menu-addresses-wrapper:first-of-type {
+  border-top: 1px solid #333;
+}
+
+.coin-menu-addresses-wrapper div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.coin-menu-addresses p {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+  color: #fff; /* Серый цвет для заголовка */
+}
+
+.coin-menu-addresses .btn {
+  background: #222227;
+  color: #808080;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.coin-menu-addresses .btn:hover {
+  background: #323239;
+}
+
+.coin-menu-addresses .btn::before {
+  content: "📋";
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.coin-menu-addresses a {
+  color: #808080;
+  text-decoration: none;
+  font-size: 14px;
+  margin-left: 10px;
+  font-weight: normal;
+}
+
+.coin-menu-addresses a:hover {
+  text-decoration: underline;
+}
+.coin-menu-audit .accordion-item{ 
+  border: 1px solid #333
+}
+ .coin-menu-audit .accordion-item, .coin-menu-audit button{
+  background-color: transparent !important;
+  font-weight:bold ;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+.coin-menu-audit button {
+  color:#fff !important;
+}
+
+.coin-menu-audit button::after , .coin-menu-audit button:not(.collapsed)::after {
+  filter: invert(100%); /* Инвертируем цвет (например, если нужно сделать белым) */
+}
+
+
+
+.coin-menu-audit button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27none%27 stroke=%27%23212529%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27%3e%3cpath d=%27M2 5L8 11L14 5%27/%3e%3c/svg%3e");
+}
+.accordion-button:focus {
+  box-shadow: none; 
+}
+
+.coin-menu-audit .accordion-body {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #333; 
+}
+.coin-menu-audit .accordion-body span {
+  font-weight: bold;
+  font-size: 13px !important;
+}
+.warning {
+  font-weight: 200;
+  font-size: 13px;
+}
+.warning span {
+  font-weight: bold;
+  font-size: 13px;
+}

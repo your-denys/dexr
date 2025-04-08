@@ -1,0 +1,87 @@
+.ads-token input,  .ads-token select,  .ads-token textarea {
+    background-color: transparent;
+    border: 1px solid #6c757d; /* Bootstrap's "secondary" */
+    color: #fff;
+    box-shadow: none;
+    transition: border-color 0.2s ease-in-out;
+    font-weight: 200;
+}
+
+.ads-token option {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    box-shadow: none;
+    transition: background-color 0.2s ease-in-out;
+}
+  
+  .ads-token input::placeholder, .ads-token select::placeholder,  .ads-token textarea::placeholder {
+    color: #adb5bd; 
+    
+  }
+  
+  .ads-token input:focus, .ads-token select:focus, .ads-token textarea::focus {
+    border-color: #6c757d !important;
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+  }
+  select:focus, .form-control:focus {
+    border-color: #6c757d !important;
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+    color: #fff;
+  }
+
+  select option {
+    background-color: #1e1e1e !important;
+    color: #fff;
+  }
+
+  .ads-token li { 
+    font-weight: 200;
+  }
+
+  .ads-token p, .ads-token button {
+    font-weight: 200;
+    color: #a8a8a8;
+  }
+
+  .ads-token button {
+    font-size: 14px;
+    border-color:#a8a8a8;
+  }
+
+  .ads-token h1 {
+    font-size: 62px;
+    color:#fff;
+  }
+  .ads-token * {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .ads-token .order {
+    color: #fff;
+    border-color:transparent;
+    font-weight: normal;
+    font-size: 17px;
+  }
+  .ads-token .form-check-label {
+    font-size: 13px!important;
+    font-weight: 200;
+    color: #a8a8a8;
+  }
+
+.ads-token .card-body {
+    color:#fff;
+}
+
+.ads-token .card:hover {
+background-color:#1e1e1e ;
+}
+
+.ads-token .card-body span {
+    font-size:14px;
+    font-weight: normal
+}

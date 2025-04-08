@@ -1,0 +1,73 @@
+.ads-update input,  .ads-update select,  .ads-update textarea {
+    background-color: transparent;
+    border: 1px solid #6c757d; /* Bootstrap's "secondary" */
+    color: #fff;
+    box-shadow: none;
+    transition: border-color 0.2s ease-in-out;
+    font-weight: 200;
+}
+.ads-update option {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    box-shadow: none;
+    transition: background-color 0.2s ease-in-out;
+}
+  
+  .ads-update input::placeholder, .ads-update select::placeholder,  .ads-update textarea::placeholder {
+    color: #adb5bd; 
+    
+  }
+  
+  .ads-update input:focus, .ads-update select:focus, .ads-update textarea::focus {
+    border-color: #6c757d !important;
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+  }
+  select:focus, .form-control:focus {
+    border-color: #6c757d !important;
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+    color: #fff;
+  }
+
+  select option {
+    background-color: #1e1e1e !important;
+    color: #fff;
+  }
+
+  .ads-update li { 
+    font-weight: 200;
+  }
+
+  .ads-update p, .ads-update button {
+    font-weight: 200;
+    color: #a8a8a8;
+  }
+
+  .ads-update button {
+    font-size: 14px;
+    border-color:#a8a8a8;
+  }
+
+  .ads-update h1 {
+    font-size: 62px;
+    color:#fff;
+  }
+  .ads-update * {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .ads-update .order {
+    color: #fff;
+    border-color:transparent;
+    font-weight: normal;
+    font-size: 17px;
+  }
+  .ads-update .form-check-label {
+    font-size: 13px!important;
+    font-weight: 200;
+    color: #a8a8a8;
+  }

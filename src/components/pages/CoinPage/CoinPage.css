@@ -1,0 +1,201 @@
+.nav {
+  --bs-nav-tabs-border-width: unset !important; 
+  white-space: nowrap;
+  /* width: max-content; /* Автоматически расширяется */
+}
+
+.nav-tabs .nav-link {
+color: #a6a6a6
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+  color: #fff;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #fff !important;
+  background-color:transparent !important;
+  border-bottom: 2px solid #fff !important;
+}
+/* Общий контейнер */
+
+.coin-container {
+  display: flex;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  height: 100vh;
+}
+
+.content-transaction .card{
+  border-radius:0;
+  background-color:#1E1E1E;
+  border: none;
+  border-bottom: 2px solid #333;
+  padding: 7px;
+}
+.content-transaction {
+  /* flex: 1; */
+  display: flex;
+  flex-direction: column;
+  /* margin-right: 250px; */
+  width: calc(100% - 320px);
+  max-width: 1200px;
+}
+
+.chart-container {
+  background: #1e1e1e;
+  padding: 0 5px;
+  position: relative;
+  
+}
+
+/* Добавили враппер, чтобы график занимал всю высоту */
+.chart-wrapper {
+  width: 100%;
+  height: calc(100vh - 370px); /* Можно менять под себя */
+  position: relative;
+}
+
+ /* Кнопки таймфрейма */
+.timeframe-selector {
+  margin-left: 40px;
+} 
+
+.timeframe-selector button {
+  color: #fff;
+  border: none;
+  margin-right: 5px;
+  padding: 6px ;
+  cursor: pointer;
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 13px;
+}
+
+.timeframe-selector button:hover {
+  /* border-bottom:2px solid #a9a9a9; */
+  color: #a9a9a9;
+}
+.timeframe-selector button.active {
+  border-bottom:2px solid #fff;
+  font-weight: bold;
+}
+/* Таблица транзакций */
+.coin-tabs span {
+font-weight: bold;
+font-size: 14px;
+}
+.coin-tabs{
+  background: #1e1e1e;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  height: 360px;
+  margin-top: auto;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+}
+
+.tab-content {
+  background: #1e1e1e;
+  padding: 0px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  overflow: auto;
+  height: calc(100% - 40px);
+  position: relative;
+  font-family: 'Poppins';
+  font-size: 14px;
+}
+
+.tab-content table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tab-content thead {
+  position: sticky;
+  top: -1px;
+  background: #2a2a2a;
+  z-index: 10;
+}
+
+.tab-content th,
+.tab-content td {
+  font-size: 13px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #333;
+  font-weight: bold;
+  /* white-space: wrap;  */
+}
+
+.tab-content th {
+  background: #2a2a2a;
+}
+
+.tab-content .buy {
+  color: #a4cf5e;
+}
+
+.tab-content .sell {
+  color: #f45b5b;
+}
+
+/* Боковое меню (информация о монете) */
+.sidebar2 {
+  height: 100vh;
+  /* position: fixed; */
+  background: #111;
+  color: white;
+  padding: 15px;
+  border-left: 2px solid #222;
+  /* right: 0; */
+  /* top: 0; */
+  overflow-y: auto !important;
+  font-family: Poppins;
+
+}
+
+.sidebar2 img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.sidebar2 h2 {
+  font-size: 18px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.sidebar2 p {
+  margin: 5px 0;
+  text-align: center;
+  color: #ddd;
+}
+
+/* Стилизация скроллбара */
+.tab-content::-webkit-scrollbar ::-webkit-scrollbar {
+  width: 6px;
+}
+
+.tab-content::-webkit-scrollbar-thumb ::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #424342, #424342ab);
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.tab-content::-webkit-scrollbar-thumb:hover ::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #424342, #424342ab);
+}
+
+.tab-content::-webkit-scrollbar-track ::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Для Firefox */
+.tab-content  {
+  scrollbar-width: thin;
+  scrollbar-color: #424342 transparent;
+}

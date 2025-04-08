@@ -1,0 +1,39 @@
+.ad-header {
+  margin-bottom: 90px;
+}
+.custom-navbar {
+  position: fixed; /* Фиксируем вверху */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.3); /* Полупрозрачный фон */
+  backdrop-filter: blur(10px); /* Размытие фона */
+  padding: 10px 0;
+  transition: background 0.3s ease-in-out;
+  
+}
+
+.custom-navbar .marketplace {
+  color: rgba(255, 255, 255, 0.5); /* Серый текст "Marketplace" */
+}
+
+.custom-navbar .nav-link {
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #ddd;
+}
+
+.user-panel {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.user-panel p {
+  margin-bottom: 0;
+}
