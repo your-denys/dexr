@@ -114,10 +114,10 @@ const CoinMenu = ({ coin }) => {
 
   const handleCopy = (text) => {
     navigator.clipboard
-      .writeText(text) // Копируем текст
+      .writeText(text) 
       .then(() => {
         setCopied(true);
-        setTimeout(() => setCopied(false), 2000); // Через 2 сек. убираем статус "Скопировано"
+        setTimeout(() => setCopied(false), 2000);
       })
       .catch((err) => console.error("Error", err));
   };
